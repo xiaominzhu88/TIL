@@ -6,11 +6,11 @@ A collection of small things I learn day to day.
 
 <hr />
 
-- [Git](/TIL/git)
-- [Javascript](/TIL/javascript)
-- [Mac](/TIL/mac)
-- [Netlify](/TIL/netlify)
-- [React](/TIL/react)
+- [Git](git)
+- [Javascript](javascript)
+- [Mac](mac)
+- [Netlify](netlify)
+- [React](react)
 
 <hr />
 
