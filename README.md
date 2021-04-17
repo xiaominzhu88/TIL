@@ -31,6 +31,10 @@
 
 - [html-tricks](html/tricks.md)
 
+### Http
+
+- [http/cors.md](http/cors.md)
+
 ### Javascript
 
 - [add-minutes-seconds-day-to-date](javascript/add-to-date.md)
@@ -53,6 +57,10 @@
 - [props-destructure](react/props-destructure.md)
 - [react-router-dom-url-parameters](react/react-router-dom-url-parameters.md)
 - [react-router-dom-basic-router](react/react-router-dom-basic-router.md)
+- [JSX-spread-component-props](react/spread-component-props.md)
+- [react-tricks](react/tricks.md)
 - [useContext-react](react/useContext-react.md)
 - [useEffect-dependencies](react/useEffect-dependencies.md)
 - [useEffect-fetch-data](react/useEffect-fetch.md)
+- [useCallback](react/useCallback.md)
+- [useMemo](react/useMemo.md)
