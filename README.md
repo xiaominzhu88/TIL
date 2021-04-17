@@ -2,7 +2,7 @@
 
 ## 🌱 Today I Learned
 
-A collection of small things I learn day to day.
+    A collection of small things I learn day to day.
 
 <hr />
 
@@ -14,6 +14,12 @@ A collection of small things I learn day to day.
 
 <hr />
 
+### Css
+
+### Cypress
+
+- [install-open](cypress/install-open.md)
+
 ### Git
 
 - [merge-abort](git/merge-abort.md)
@@ -21,10 +27,19 @@ A collection of small things I learn day to day.
 - [rename-local-branch](git/rename-local-branch.md)
 - [rename-remote-branch](git/rename-remote-branch.md)
 
+### Html
+
+- [html-tricks](html/tricks.md)
+
 ### Javascript
 
+- [add-minutes-seconds-day-to-date](javascript/add-to-date.md)
 - [filter-duplicate-in-array](javascript/filter-duplicate-in-array.md)
 - [find-longest-in-array](javascript/find-longest-in-array.md)
+
+### Laravel
+
+- [livewire](laravel/livewire.md)
 
 ### Mac
 
@@ -33,9 +48,11 @@ A collection of small things I learn day to day.
 ### React
 
 - [access-env-value](react/access-env-value.md)
+- [localStorage-persist-state](react/localstorage-persist-state.md)
 - [passing-props-react-router](react/passing-props-react-router.md)
 - [props-destructure](react/props-destructure.md)
-- [url-parameters-react-router-dom](react/url-parameters-react-router-dom.md)
+- [react-router-dom-url-parameters](react/react-router-dom-url-parameters.md)
+- [react-router-dom-basic-router](react/react-router-dom-basic-router.md)
 - [useContext-react](react/useContext-react.md)
 - [useEffect-dependencies](react/useEffect-dependencies.md)
-- [useEffect-fetch](react/useEffect-fetch.md)
+- [useEffect-fetch-data](react/useEffect-fetch.md)
