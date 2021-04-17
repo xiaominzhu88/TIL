@@ -16,9 +16,13 @@
 
 ### Css
 
+- [classNames-in-react](css/classNames-in-react.md)
+- [add-fontawesome-icons](css/fontawesome.md)
+
 ### Cypress
 
 - [install-open](cypress/install-open.md)
+- [data-cy-element](cypress/click-element.md)
 
 ### Git
 
@@ -26,6 +30,8 @@
 - [merge-rebase](git/merge-rebase.md)
 - [rename-local-branch](git/rename-local-branch.md)
 - [rename-remote-branch](git/rename-remote-branch.md)
+- [common-command-line](git/command-line.md)
+- [xcrun-error-after-mac-update](git/xcrun-error.md)
 
 ### Html
 
