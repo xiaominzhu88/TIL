@@ -16,6 +16,13 @@ cy.get('[data-cy="buy-button"]').should('be.visible').click();
 and in `cypress _spec files` define
 
 ```jsx
-const selectors = { element: "div[data-purpose='element']", ...};
-cy.get(selectors.element).should('be.visible').click();
+const selectors = {
+  element1: "div[data-purpose='element']",
+  element2: "a[data-purpose='element']",
+  ...};
+
+cy.get(selectors.element2).should('be.visible').click();
+
+cy.get(selectors.element1).should('be.visible').children().should('have.length', 2);
+// ...
 ```

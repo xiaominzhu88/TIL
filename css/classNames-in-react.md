@@ -37,7 +37,7 @@ export default function MyComponent({ className }) {
 		<div>
 			{['red', 'yellow', 'blue'].map((buttonColor) => (
 				<button
-					className={classNames(
+					className={classNames(styles.content,
 						className,
 						{ [styles.`btn-${buttonColor}`]: show },
 						'global-container',
