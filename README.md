@@ -70,6 +70,7 @@
 ### React
 
 - [access-env-value](react/access-env-value.md)
+- [children-prop-choose](react/children-choose.md)
 - [localStorage-persist-state](react/localstorage-persist-state.md)
 - [passing-props-react-router](react/passing-props-react-router.md)
 - [props-destructure](react/props-destructure.md)
