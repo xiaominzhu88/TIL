@@ -6,17 +6,17 @@
 
 <hr />
 
-- [Business](business)
-- [Css](css)
-- [Cypress](cypress)
-- [Git](git)
-- [Html](html)
-- [Http](http)
-- [Javascript](javascript)
-- [Laravel](laravel)
-- [Mac](mac)
-- [Netlify](netlify)
-- [React](react)
+- [Business](#business)
+- [Css](#css)
+- [Cypress](#cypress)
+- [Git](#git)
+- [Html](#html)
+- [Http](#http)
+- [Javascript](#javascript)
+- [Laravel](#laravel)
+- [Mac](#mac)
+- [Netlify](#netlify)
+- [React](#react)
 
 <hr />
 
