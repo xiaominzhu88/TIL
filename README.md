@@ -18,11 +18,12 @@
 
 - [classNames-in-react](css/classNames-in-react.md)
 - [add-fontawesome-icons](css/fontawesome.md)
+- [fix-image-text-position](css/fix-image-text-position.md)
 
 ### Cypress
 
 - [install-open](cypress/install-open.md)
-- [data-cy-element](cypress/click-element.md)
+- [data-cy-element](cypress/data-cy-element.md)
 
 ### Git
 
@@ -50,6 +51,7 @@
 ### Laravel
 
 - [livewire](laravel/livewire.md)
+- [add-download-pdf-link](laravel/add-download-pdf-link.md)
 
 ### Mac
 
