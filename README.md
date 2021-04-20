@@ -29,6 +29,7 @@
 - [classNames-in-react](css/classNames-in-react.md)
 - [add-fontawesome-icons](css/fontawesome.md)
 - [fix-image-text-position](css/fix-image-text-position.md)
+- [use-safari-inspect-iphone-element](css/use-safari-test-iphone-layout.md)
 
 ### Cypress
 
