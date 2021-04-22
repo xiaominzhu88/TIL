@@ -85,3 +85,4 @@
 - [useEffect-fetch-data](react/useEffect-fetch.md)
 - [useCallback](react/useCallback.md)
 - [useMemo](react/useMemo.md)
+- [useEffect-async-error](react/useEffect-async-error.md)
