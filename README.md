@@ -17,6 +17,7 @@
 - [Mac](#mac)
 - [Netlify](#netlify)
 - [React](#react)
+- [TailwindCss](#tailwindCss)
 
 <hr />
 
