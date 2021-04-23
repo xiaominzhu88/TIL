@@ -70,6 +70,11 @@
 
 - [setup-for-work](mac/setup.md)
 
+### Netlify
+
+- [add-redirects-file](netlify/add-redirects-file.md)
+- [env-file-unreachable](netlify/env-file-undefined.md)
+
 ### React
 
 - [access-env-value](react/access-env-value.md)
