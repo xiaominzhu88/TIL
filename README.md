@@ -6,7 +6,7 @@
 
 <hr />
 
-- [Business](#business)
+- [Setups](#setups)
 - [Css](#css)
 - [Cypress](#cypress)
 - [Git](#git)
@@ -20,10 +20,6 @@
 - [TailwindCss](#tailwindCss)
 
 <hr />
-
-### Business
-
-- [add-crisp-chat](business/add-crisp-chat.md)
 
 ### Css
 
@@ -99,3 +95,8 @@
 
 - [responsive-nav-link-with-laravel-jetstream](tailwindcss/responsive-nav-link-with-laravel.md)
 - [tailwindcss-width-fit-content](tailwindcss/width-fit-content.md)
+
+### Setups
+
+- [add-crisp-chat](setups/add-crisp-chat.md)
+- [laravel-react-docker-project-setup-example](setups/laravel-react-docker-project-setup-example.md)
