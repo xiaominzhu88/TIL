@@ -28,6 +28,7 @@
 - [fix-image-text-position](css/fix-image-text-position.md)
 - [use-safari-inspect-iphone-element](css/use-safari-test-iphone-layout.md)
 - [use-hex-instead-rgb](css/use-hex-instead-rgb.md)
+- [change-list-style](css/list-style.md)
 
 ### Cypress
 
