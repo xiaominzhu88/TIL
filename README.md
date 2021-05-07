@@ -10,6 +10,7 @@
 - [Css](#css)
 - [Cypress](#cypress)
 - [Git](#git)
+- [Gatsby](#gatsby)
 - [Html](#html)
 - [Http](#http)
 - [Javascript](#javascript)
@@ -34,6 +35,10 @@
 
 - [install-open](cypress/install-open.md)
 - [data-cy-element](cypress/data-cy-element.md)
+
+### Gatsby
+
+- [create-a-page](gatsby/make-a-page.md)
 
 ### Git
 
