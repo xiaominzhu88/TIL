@@ -72,7 +72,7 @@
 ### Mac
 
 - [setup-for-work](mac/setup.md)
-- [list-open-ports](TIL/mac/list-open-ports.md)
+- [list-open-ports](mac/list-open-ports.md)
 
 ### Netlify
 
