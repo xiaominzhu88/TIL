@@ -30,6 +30,7 @@
 - [use-safari-inspect-iphone-element](css/use-safari-test-iphone-layout.md)
 - [use-hex-instead-rgb](css/use-hex-instead-rgb.md)
 - [change-list-style](css/list-style.md)
+- [prevent-span-texts-line-break](css/prevent-line-break.md)
 
 ### Cypress
 
