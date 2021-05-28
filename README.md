@@ -98,6 +98,7 @@
 - [useMemo](react/useMemo.md)
 - [useEffect-async-error](react/useEffect-async-error.md)
 - [export-multiple-api-request-from-customerHook](react/export-api-customerHook.md)
+- [email-validation-with-dialog](react/email-validation-dialog.md)
 
 ### TailwindCss
 
