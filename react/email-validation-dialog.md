@@ -147,8 +147,8 @@ const NotifyOverlay = () => {
 export default NotifyOverlay;
 ```
 
-<img src='image/overlay1.png' alt='overlay' />
-<img src='image/overlay2.png' alt='overlay' />
-<img src='image/overlay3.png' alt='overlay' />
-<img src='image/overlay4.png' alt='overlay' />
-<img src='image/overlay5.png' alt='overlay' />
+<img src='image/overlay1.png' width='300px' height='250px' alt='overlay' />
+<img src='image/overlay2.png' width='300px' alt='overlay' />
+<img src='image/overlay3.png' width='300px' alt='overlay' />
+<img src='image/overlay4.png' width='300px' alt='overlay' />
+<img src='image/overlay5.png' width='300px' alt='overlay' />
