@@ -31,6 +31,7 @@
 - [use-hex-instead-rgb](css/use-hex-instead-rgb.md)
 - [change-list-style](css/list-style.md)
 - [prevent-span-texts-line-break](css/prevent-line-break.md)
+- [print-page-with-media-print](css/print-page-with-media.md)
 
 ### Cypress
 
