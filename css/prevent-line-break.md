@@ -7,15 +7,17 @@
 Let's say you map the lists 👇
 
 ```jsx
+<ul>
 {
 	lists.map((list) => {
 		return (
-			<span className="selectedItem" key={list.id}>
+			<li className="selectedItem" key={list.id}>
 				{list.text}
-			</span>
+			</li>
 		);
 	});
 }
+</ul>
 ```
 
 and give them some styles 👇
@@ -29,6 +31,7 @@ padding: space('25') space('50');
 line-height: 2rem;
 color: $color-gray-70;
 font-weight: 500;
+display:inline; // we want that the items beside to each other
 }
 ```
 
@@ -36,7 +39,7 @@ You will get something like this below 👇
 
 <img src='image/line-break.png' alt='lines' />
 
-see the line breaks? ugly 🙅‍♀️
+See the line breaks? ugly 🙅‍♀️
 
 🤞 To prevent line breaks, I created scss file like below ( ignore the scss modules )
 
