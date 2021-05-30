@@ -36,9 +36,9 @@ You will get something like this below 👇
 
 <img src='image/line-break.png' alt='lines' />
 
-see the line breaks? 🧩
+see the line breaks? ugly 🙅‍♀️
 
-🤞 To prevent line break, I created scss file like below, it prevents the line break for each `<span>` and it's also possible to define `padding` and `margin` ... ( ignore the scss modules )
+🤞 To prevent line breaks, I created scss file like below ( ignore the scss modules )
 
 ```jsx
 .selectedItem {
