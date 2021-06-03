@@ -54,21 +54,22 @@ import { useDialogState, DialogDisclosure } from 'reakit/Dialog';
 import Button from 'components/Button/Button';
 import Modal from 'components/Modal/Modal';
 
-const Overlay = () => {
+const InputOverlay = () => {
 	const dialog = useDialogState();
+	const handleSubmit=()=>{...}
 	return (
 		<>
 			<DialogDisclosure {...dialog}>
-				<Button>Notify me</Button>
+				<Button onClick={handleSubmit}>Notify me</Button>
 			</DialogDisclosure>
-			<Modal>Confirm Content ... </Modal>
+			<Modal>Confirm overlay content here ... </Modal>
 		</>
 	);
 };
 // ...
 ```
 
-💥 It works fine, but I noticed in the console that an Error exists actually: `validateDOMNesting(…): <button> cannot appear as a descendant of <button>`
+💥 Everything works fine, but I noticed that an Error actually exists in the console: `validateDOMNesting(…): <button> cannot appear as a descendant of <button> ...`
 
 After a series of checks, I found the reason:
 
@@ -128,8 +129,10 @@ outline: none;
 ```
 
 ```jsx
-// in Overlay component import and use it
-<NotifyOverlayButton onClick={handleSubmit}>
-	<span className={styles.notifyMe}>Notify me</span>
-</NotifyOverlayButton>
+// import and use it
+<DialogDisclosure {...dialog}>
+	<NotifyOverlayButton onClick={handleSubmit}>
+		<span className={styles.notifyMe}>Notify me</span>
+	</NotifyOverlayButton>
+</DialogDisclosure>
 ```
