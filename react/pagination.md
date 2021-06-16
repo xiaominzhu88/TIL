@@ -157,7 +157,7 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
         })}
 
       // should only visible if the last three buttons are visible
-      {currentPage <= pageTotal - 2 && (
+      {currentPage < pageTotal - 2 && (
         <Button className={styles.dots} disabled>
           ...
         </Button>
