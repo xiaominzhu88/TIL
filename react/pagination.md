@@ -1,10 +1,23 @@
 # Pagination with React
 
-<img src='./image/pagination1.png' height='50px'/>
-<img src='./image/pagination2.png' height='50px'/>
-<img src='./image/pagination3.png' height='50px'/>
+First, site needs to display 15 cards with different contents, the API returns 104 total pages.
+User can click the pagination button at bottom of the site, or click the Previous / Next button to switch the page.
+
+👉 When the site initial loads , the pagination needs to display the first and last three buttons, the middle buttons are displayed with ellipsis.
+
+<img src='./image/pagination1.png' height='30px'/>
+
+👉 When user switches up to page 4, a previous button appears in the front of pagination, it will only display the first and last buttons, as well as the current page button and two before / after buttons, the other buttons are displayed with ellipsis.
+
+<img src='./image/pagination2.png' height='30px'/>
+
+👉 User can jump to the last page, the Next button should disappear at this time, the pagination only displays the first, last three buttons and the Previous button, the middle buttons are displayed with ellipsis
+
+<img src='./image/pagination3.png' height='30px'/>
 
 Parent component:
+
+- update data with api response, pass them to Pagination child component
 
 ```jsx
 const ParentComponent = () => {
@@ -42,7 +55,9 @@ const ParentComponent = () => {
 }
 ```
 
-Pagination Component
+Pagination Component:
+
+- define Previous, Page, Next, ellipsis conditional rendered buttons
 
 ```jsx
 const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
@@ -63,8 +78,7 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
         </Button>
       )}
 
-     // the first 3 buttons should be visible if the current page <=3
-     // or >= total - 2 (last three buttons visible)
+     // the first button always appears
       <Button
         className={classNames(styles.circle, {
           [styles.activeButton]: currentPage === 1,
@@ -77,6 +91,7 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
         1
       </Button>
 
+      // these buttons should be visible if the current page <=3 or >= total - 2
       {(currentPage <= 3 || currentPage >= pageTotal - 2) && (
         <Button
           className={classNames(styles.circle, {
@@ -133,7 +148,6 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
                 className={classNames(styles.circle, {
                   [styles.activeButton]: btn.label === String(currentPage),
                 })}
-                disabled={btn.label === '...'}
                 shape="bubble"
               >
                 {btn.label}
@@ -149,7 +163,7 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
         </Button>
       )}
 
-      // the last three buttons if the current page < 4 or >= total - 2
+      // these buttons appear if the current page < 4 or >= total - 2
       {(currentPage >= pageTotal - 2 || currentPage < 4) && (
         <Button
           className={classNames(styles.circle, {
@@ -176,6 +190,8 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
           {String(pageTotal - 1)}
         </Button>
       )}
+
+      // the last button always appears
       <Button
         className={classNames(styles.circle, {
           [styles.activeButton]: currentPage === pageTotal,
@@ -206,3 +222,13 @@ const Pagination = ({ fetchPageData, pageTotal, currentPage, buttonLinks }) => {
 
 export default Pagination;
 ```
+
+- use `onClick` on each button, call `fetchPageData` function to fetch every page like this: `fetchPageData(currentPage)` regarding to the current page number
+
+---
+
+It is also important that the button style should be updated according to the current page, use react [classnames](https://www.npmjs.com/package/classnames) on each button with page number to render conditional style
+
+<img src='./image/pagination4.png' />
+
+---
