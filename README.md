@@ -103,6 +103,7 @@
 - [export-multiple-api-request-from-customerHook](react/export-api-customerHook.md)
 - [email-validation-with-dialog](react/email-validation-dialog.md)
 - [prevent-button-descendant-error](react/prevent-button-descendant-error.md)
+- [pagination-with-react](react/pagination.md)
 
 ### TailwindCss
 
