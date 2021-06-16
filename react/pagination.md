@@ -229,6 +229,22 @@ export default Pagination;
 
 It is also important that the button style should be updated according to the current page, use react [classnames](https://www.npmjs.com/package/classnames) on each button with page number to render conditional style
 
-<img src='./image/pagination4.png' />
-
 ---
+
+```jsx
+.activeButton {
+  display:none;
+  @include media-breakpoint-up(sm){
+    display:block;
+    margin: ...;
+    color: ...;
+    background: ...;
+    border-radius:999px;
+    &:active,
+    &:focus {
+      box-shadow:inset 0 1px 2px ...;
+      color: ...
+    }
+  }
+}
+```
