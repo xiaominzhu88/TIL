@@ -34,6 +34,7 @@
 - [print-page-with-media-print](css/print-page-with-media.md)
 - [add-color-and-linear-gradient-to-background-image](css/add-color-and-linear-gradient-to-background-image.md)
 - [add-centered-dot-before-text.md](css/center-dot-before-text.md)
+- [cut-background-with-negative-margin.md](css/background-with-negative-margin.md)
 
 ### Cypress
 
