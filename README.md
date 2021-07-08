@@ -33,6 +33,7 @@
 - [prevent-span-texts-line-break](css/prevent-line-break.md)
 - [print-page-with-media-print](css/print-page-with-media.md)
 - [add-color-and-linear-gradient-to-background-image](css/add-color-and-linear-gradient-to-background-image.md)
+- [add-centered-dot-before-text.md](css/center-dot-before-text.md)
 
 ### Cypress
 
