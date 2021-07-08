@@ -52,6 +52,7 @@
 - [rename-remote-branch](git/rename-remote-branch.md)
 - [common-command-line](git/command-line.md)
 - [xcrun-error-after-mac-update](git/xcrun-error.md)
+- [rename-branch.md](git/rename-branch.md)
 
 ### Html
 
