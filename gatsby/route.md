@@ -79,3 +79,10 @@ const App = () => {
 };
 export default App;
 ```
+
+<hr />
+👉 Then, create components as you need ( e.g for AdminUsersList ):
+
+```jsx
+site / src / pages / admin / components / user / list / AdminUsersList.js;
+```
