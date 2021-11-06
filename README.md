@@ -51,6 +51,7 @@
 - [create-a-page](gatsby/make-a-page.md)
 - [fetch-JSON-data-from-component](gatsby/use-gatsby-transformer-json.md)
 - [gatsby-navigate-function](gatsby/gatsby-navigate.md)
+- [gatsby-router-route](gatsby/route.md)
 
 ### Git
 
