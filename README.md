@@ -115,6 +115,7 @@
 - [prevent-button-descendant-error](react/prevent-button-descendant-error.md)
 - [pagination-with-react](react/pagination.md)
 - [form-validation-with-reakit](react/form-validation-with-reakit.md)
+- [password-validation-reakit](react/password-validation-reakit.md)
 
 ### TailwindCss
 
