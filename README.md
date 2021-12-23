@@ -77,6 +77,7 @@
 - [filter-duplicate-in-array](javascript/filter-duplicate-in-array.md)
 - [find-longest-in-array](javascript/find-longest-in-array.md)
 - [filter-distance-with-geo-api](javascript/filter-distance.md)
+- [add-comma-between-items-in-array](javascript/add-comma.md)
 
 ### Laravel
 
