@@ -117,6 +117,7 @@
 - [pagination-with-react](react/pagination.md)
 - [form-validation-with-reakit](react/form-validation-with-reakit.md)
 - [password-validation-reakit](react/password-validation-reakit.md)
+- [sessionStorage-persist-state](react/session-storage.md)
 
 ### TailwindCss
 
