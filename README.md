@@ -42,6 +42,7 @@
 - [cut-background-with-negative-margin.md](css/background-with-negative-margin.md)
 - [responsive-embed-iframe-video.md](css/responsive-embed-iframe.md)
 - [margin-auto.md](css/margin-auto.md)
+- [mobile-scroll](css/mobile-scroll.md)
 
 ### Cypress
 
