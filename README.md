@@ -43,6 +43,7 @@
 - [responsive-embed-iframe-video.md](css/responsive-embed-iframe.md)
 - [margin-auto.md](css/margin-auto.md)
 - [mobile-scroll](css/mobile-scroll.md)
+- [text-excerpt](css/text-excerpt.md)
 
 ### Cypress
 

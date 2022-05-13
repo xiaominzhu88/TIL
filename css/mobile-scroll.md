@@ -109,3 +109,13 @@ background-color: ...;
 But many UI designers believe that “standardized” UI components like scrollbars should never be interfered with performance 🧊
 
 **::-webkit-scrollbar** only works on Blink and WebKit based browsers (e.g Chrome, Edge, Opera, Safari, all browsers on iOS…), but not Firefox, Internet Explorer, Firefox for Android. If overflow: scroll not set, no scroll bar is displayed.
+
+## Hide scrollbar:
+
+```jsx
+-ms-overflow-style:none; // for Internet Explorer, Edge
+scrollbar-width:none; // for Firefox
+::-webkit-scrollbar {
+  display:none; // for Chrome, Safari and Opera
+}
+```
