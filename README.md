@@ -123,6 +123,7 @@
 - [password-validation-reakit](react/password-validation-reakit.md)
 - [sessionStorage-persist-state](react/session-storage.md)
 - [state-update-with-context](react/context-api.md)
+- [forwardRef-useImperativeHandle-hooks](forwardRef-useImperativeHandle.md)
 
 ### TailwindCss
 
