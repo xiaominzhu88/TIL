@@ -116,7 +116,6 @@
 - [useMemo](react/useMemo.md)
 - [useEffect-async-error](react/useEffect-async-error.md)
 - [export-multiple-api-request-from-customerHook](react/export-api-customerHook.md)
-- [email-validation-with-dialog](react/email-validation-dialog.md)
 - [prevent-button-descendant-error](react/prevent-button-descendant-error.md)
 - [pagination-with-react](react/pagination.md)
 - [form-validation-with-reakit](react/form-validation-with-reakit.md)
@@ -129,6 +128,7 @@
 ##### React Library
 
 - [react-hook-form-library](react/library/react-hook-form.md)
+- [email-validation-with-reakit-library-dialog](react/email-validation-dialog.md)
 
 ### TailwindCss
 
