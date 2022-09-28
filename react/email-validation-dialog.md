@@ -1,25 +1,13 @@
 # Email validation with Dialog
 
-In one of my current projects, I created an overlay where the user can
-input email addresses and submit, 🧊 I'm using `reakit` Dialog which is one
-of my favorite, and created email validation within it.
+An overlay where the user can input email adress and submit, 👉 Using [reakit library](https://reakit.io/)  Dialog to created email validation within it.
 
 💫 It validates 3 different situations weather the user "input nothing",
 "input invalid email ", "not confirm the checkbox"
 
 ```jsx
-import styles from 'components/NotifyOverlay/NotifyOverlay.module.scss';
-import NotifyConfirm from 'components/NotifyConfirm/NotifyConfirm';
-
 import React, { useState } from 'react';
-import { Separator } from 'reakit/Separator';
 import { useDialogState, DialogDisclosure } from 'reakit/Dialog';
-
-import Form, { Field } from 'ui/src/components/Form/Form';
-import Link from 'ui/src/components/Link/Link';
-import Button from 'ui/src/components/Button/Button';
-import Modal from 'ui/src/components/Modal/Modal';
-
 import { Checkbox, useCheckboxState } from 'reakit/Checkbox';
 
 const NotifyOverlay = () => {
@@ -69,17 +57,9 @@ const NotifyOverlay = () => {
 		}
 	};
 
-	const mockSelected = ['Interventional trials', '...', '...'];
-
 	return (
 		<>
-			<div>
-				{mockSelected.map((item) => {
-					return <li className={styles.selectedItem}>{item}</li>;
-				})}
-			</div>
-			<Separator />
-			<Form className={styles.inputWrapper}>
+			<Form>
 				<Field
 					isNotify
 					className="..."
@@ -88,49 +68,47 @@ const NotifyOverlay = () => {
 					onChange={(e) => setInput(e.target.value)}
 				/>
 			</Form>
-			<div className={styles.confirmWrapper}>
+			<div>
 				<label>
 					<Checkbox
 						value=""
 						checked={checked}
 						onChange={toggle}
 						{...checkbox}
-						className={styles.checkbox}
 					/>
 				</label>
-				<p className={styles.confirmText}>
+				<p>
 					I confirm I have read and agree to the{' '}
-					<Link className={styles.confirmLink} to="/">
+					<Link to="/">
 						terms of service
 					</Link>{' '}
 					and the{' '}
-					<Link className={styles.confirmLink} to="/">
+					<Link to="/">
 						data privacy statement
 					</Link>
 					.
 				</p>
 			</div>
-			<div className={styles.linksWrapper}>
-				<Link className={styles.cancel} to="/">
+			<div>
+				<Link to="/">
 					Cancel
 				</Link>
 				// Open Dialog button
-				<div className={styles.notifyButtonContainer}>
+				<div>
 					<DialogDisclosure {...dialog}>
 						<Button
 							shape="default"
 							theme="secondary"
 							isElevated
-							className={styles.notifyButton}
 							onClick={handleSubmit}
 						>
-							<span className={styles.notifyMe}>Notify me</span>
+							<span>Notify me</span>
 						</Button>
 					</DialogDisclosure>
 				</div>
 			</div>
 			// open modal only if the inputs are validate
-			<div className={styles.errorMessage}> {errorMessage}</div>
+			<div> {errorMessage}</div>
 			{!errorMessage && checked && (
 				<Modal
 					theme="default"
