@@ -126,6 +126,10 @@
 - [forwardRef-useImperativeHandle-hooks](react/forwardRef-useImperativeHandle.md)
 - [useReducer-hooks](react/useReducer.md)
 
+##### React Library
+
+- [react-hook-form-library](react/library/react-hook-form.md)
+
 ### TailwindCss
 
 - [responsive-nav-link-with-laravel-jetstream](tailwindcss/responsive-nav-link-with-laravel.md)
