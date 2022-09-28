@@ -118,7 +118,6 @@
 - [export-multiple-api-request-from-customerHook](react/export-api-customerHook.md)
 - [prevent-button-descendant-error](react/prevent-button-descendant-error.md)
 - [pagination-with-react](react/pagination.md)
-- [form-validation-with-reakit](react/form-validation-with-reakit.md)
 - [password-validation-reakit](react/password-validation-reakit.md)
 - [sessionStorage-persist-state](react/session-storage.md)
 - [state-update-with-context](react/context-api.md)
@@ -129,6 +128,7 @@
 
 - [react-hook-form-library](react/library/react-hook-form.md)
 - [email-validation-with-reakit-library-dialog](react/email-validation-dialog.md)
+- [form-validation-with-reakit](react/form-validation-with-reakit.md)
 
 ### TailwindCss
 
