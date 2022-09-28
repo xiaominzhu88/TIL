@@ -41,7 +41,7 @@ export default function BasicExample() {
 		// elements and renders the first one whose path
 		// matches the current URL.
 
-		// Use a <Switch> any time withvmultiple routes, only one
+		// Use a <Switch> any time with multiple routes, only one
 		// of them to render at a time
 	);
 }
@@ -52,25 +52,19 @@ export default function BasicExample() {
 
 function Home() {
 	return (
-		<div>
-			<h2>Home</h2>
-		</div>
+		<h2>Home</h2>
 	);
 }
 
 function About() {
 	return (
-		<div>
-			<h2>About</h2>
-		</div>
+		<h2>About</h2>
 	);
 }
 
 function Dashboard() {
 	return (
-		<div>
-			<h2>Dashboard</h2>
-		</div>
+		<h2>Dashboard</h2>
 	);
 }
 ```
