@@ -54,7 +54,7 @@ This is a waterfall effect, we should not wait for the response, that means we s
 
 👉 Suspense is to solve asynchronous operations, not just display content of the component.
 
-In general, Suspense is divided into two functions: <span style='color:pink;font-size:18px'>asynchronously loading code ( code splitting ) </span>and <span style='color:pink;font-size:18px'>asynchronously loading data</span>.
+In general, Suspense is divided into two functions: $$\textcolor{pink}{\text{asynchronously loading code( code splitting ) }}$$ and $$\textcolor{pink}{\text{asynchronously loading data }}$$
 
 <hr />
 
