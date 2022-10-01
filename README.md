@@ -100,6 +100,10 @@
 
 ### React
 
+- [suspense-lazy-axios](react/suspense-lazy-axios.md)
+- [state-update-with-context](react/context-api.md)
+- [forwardRef-useImperativeHandle-hooks](react/forwardRef-useImperativeHandle.md)
+- [useReducer-hooks](react/useReducer.md)
 - [access-env-value](react/access-env-value.md)
 - [children-prop-choose](react/children-choose.md)
 - [localStorage-persist-state](react/localstorage-persist-state.md)
@@ -119,9 +123,6 @@
 - [prevent-button-descendant-error](react/prevent-button-descendant-error.md)
 - [pagination-with-react](react/pagination.md)
 - [sessionStorage-persist-state](react/session-storage.md)
-- [state-update-with-context](react/context-api.md)
-- [forwardRef-useImperativeHandle-hooks](react/forwardRef-useImperativeHandle.md)
-- [useReducer-hooks](react/useReducer.md)
 
 ##### React Library
 
