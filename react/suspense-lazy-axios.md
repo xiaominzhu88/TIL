@@ -137,11 +137,13 @@ export default function InputField(props) {
 
 In this way, code loading is an asynchronous process, the entire loading state does not need to be controlled by the developer.
 
-💥 Although Suspense is often used with lazy, can Suspense only be used with lazy? Does lazy have to cooperate with Suspense? Well, let’s say, Suspense is a standard for loading data, Lazy is a method implemented under this standard. 📌 This means that lazy cannot be used without Suspense.
+💥 Although Suspense is often used with lazy, can Suspense only be used with lazy? Does lazy have to cooperate with Suspense? 
+
+Well, let’s say, Suspense is a standard for loading data, Lazy is a method implemented under this standard. 📌 This means that lazy cannot be used without Suspense.
 
 <hr />
 
-Second example: asynchronously loading data with Suspense and Axios.
+Second example: asynchronously loading **DATA** with Suspense and Axios.
 
 <img src='./image/suspense-cats-fallback.png' alt='fallback'>
 
