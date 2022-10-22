@@ -130,6 +130,8 @@
 - [email-validation-with-reakit-library-dialog](react/email-validation-dialog.md)
 - [form-validation-with-reakit](react/form-validation-with-reakit.md)
 - [password-validation-reakit](react/password-validation-reakit.md)
+- [jest-react-testing-library](react/jest-testing.md)
+- [graphQL-apollo-client](react/graphQL-apollo-client.md)
 
 ### TailwindCss
 
