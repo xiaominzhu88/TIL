@@ -87,11 +87,12 @@
 
 ### Typescript
 
-- [sorting-with-mui5](sorting-with-mui5.md)
+- [sorting-with-mui5](typescript/sorting-with-mui5.md)
+- [basic-prop-types](typescript/basic-prop-types.md)
 
 ### Storybook
 
-- [storybook-with-typescript-react](storybook-with-typescript-react.md)
+- [storybook-with-typescript-react](storybook/storybook-with-typescript-react.md)
 
 ### Laravel
 
