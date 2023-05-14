@@ -1,6 +1,6 @@
 # Set Parent state with nexted Context | typescript
 
-[codesandbox](https://codesandbox.io/s/context-typescript-7nznb8?file=/src/App.tsx)
+[codesandbox](https://codesandbox.io/s/nested-context-setparentstate-typescript-7nznb8)
 
 1. Wrap the components that need the context with a context provider:
 
