@@ -68,3 +68,5 @@ export function ObjectType() {
   let objectBox: ObjectBox = { contents: { a: 4, b: "Hello" } };
   console.log(`{${objectBox.contents.a} - ${objectBox.contents.b}`); // 4 - Hello
 ```
+
+[CodeSandbox here](https://codesandbox.io/s/generic-functions-typescript-tufdpf?file=/src/Object.tsx:1816-1852)
