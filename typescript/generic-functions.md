@@ -57,3 +57,5 @@ combineTwo([1, 2, 3], [", hello"]); // Error: Type 'string' is not assignable to
 
 sayHello("Lola"); // Hello, Lola 🐶!
 ```
+
+[CodeSandbox here](https://codesandbox.io/s/generic-functions-typescript-tufdpf?file=/src/App.tsx:2396-2412)
