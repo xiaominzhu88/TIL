@@ -90,6 +90,7 @@
 - [sorting-with-mui5](typescript/sorting-with-mui5.md)
 - [basic-prop-types](typescript/basic-prop-types.md)
 - [nested-context-setstate](typescript/nested-context-setstate.md)
+- [generic-functions](typescript/generic-functions.md)
 
 ### Storybook
 
