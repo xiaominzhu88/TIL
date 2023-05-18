@@ -9,7 +9,8 @@
  firstEl([1, 2, 3]); //  1
  firstEl([]); // undefined!
 
-  // Multiple type parameters e.g map()
+
+// Multiple type parameters e.g map()
   function map<Input, Output>(
     arr: Input[],
     fn: (arg: Input, idx: number) => Output
@@ -18,6 +19,7 @@
   }
 map(["Apple", "Orange", "Kiwi"], (str, idx) => `${idx}: ${str}  `); // 0: Apple 1: Orange 2: Kiwi
 map([1, 2, 3], (num, idx) => idx + num); // 135
+
 
 // Constrains:  limit the kinds of types that a type parameter can accept.
   function longest<
@@ -33,22 +35,22 @@ map([1, 2, 3], (num, idx) => idx + num); // 135
 
 longest([1, 2], [1, 2, 3]); // 123
 longest("Kiwi", "Orange"); // Orange
-longest(4, 2); // Error: Argument of type 'number' is not assignable to parameter of type '{length: number;}',
-              // because number type doesn’t have a .length property
+longest(4, 2); // Error: Argument of type 'number' is not assignable to parameter of type '{length: number;}', because number type doesn’t have a .length property
 
-  // Specifying Type Arguments
+
+// Specifying Type Arguments
   function combineTwo<Type>(arr1: Type[], arr2: Type[]): Type[] {
     return [...arr1, ...arr2];
   }
 
-// Type: string | number
+  // Type: string | number
 combineTwo<string | number>([1, 2, 3], [", hello"]); // 123, hello
-combineTwo([1, 2, 3], [", hello"]); // Error: Type 'string' is not assignable to type 'number'!
-                                      // function is called with mismatched arrays!
+combineTwo([1, 2, 3], [", hello"]); // Error: Type 'string' is not assignable to type 'number'! function is called with mismatched arrays!
 
-  // Type parameters are for relating the types of multiple values.
-  // If a type parameter is only used once in the function signature,
-  // it’s not relating anything, then write in a simpler way 👇
+
+// Type parameters are for relating the types of multiple values.
+// If a type parameter is only used once in the function signature,
+// it’s not relating anything, then write in a simpler way 👇
   function sayHello(val: string) {
     return "Hello, " + val + " 🐶!";
   }
