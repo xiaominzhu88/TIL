@@ -92,6 +92,7 @@
 - [nested-context-setstate](typescript/nested-context-setstate.md)
 - [generic-functions](typescript/generic-functions.md)
 - [object-types](typescript/object-types.md)
+- [indexed-access-types](typescript/indexed-access-type.md)
 
 ### Storybook
 
