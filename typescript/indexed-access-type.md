@@ -34,3 +34,5 @@ type Pets = (typeof MyPets)[number];
 const pets = (arg: Pets) => `${arg.name}: ${arg.age}`;
 pets({ name: 'Not a pet', age: 0 }); // Not a pet: 0
 ```
+
+[CodeSandbox here](https://codesandbox.io/s/generic-functions-typescript-tufdpf?file=/src/IdxAccess.tsx)
